@@ -1,0 +1,12 @@
+Changes
+LICENSE
+MANIFEST
+Makefile.PL
+README
+example/Example.pl
+example/log.txt
+lib/List/Sliding/Changes.pm
+t/02-Added-Lines.t
+t/03-Repeated-Lines.t
+t/99-Pod.t
+t/embedded-List-Sliding-Changes.t
