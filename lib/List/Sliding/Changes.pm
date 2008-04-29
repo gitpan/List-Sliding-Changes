@@ -5,7 +5,7 @@ use Exporter;
 use vars qw ($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
 use Carp qw(croak);
 
-$VERSION     = 0.02;
+$VERSION     = 0.03;
 @ISA         = qw (Exporter);
 
 @EXPORT_OK   = qw ( &find_new_indices &find_new_elements );
@@ -114,14 +114,12 @@ More tests are always welcome !
 
 =head1 COPYRIGHT
 
-Copyright (c) 2003 Max Maischein. All rights reserved.
+Copyright (c) 2003-2008 Max Maischein. All rights reserved.
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
-
-The full text of the license can be found in the
-LICENSE file included with this module.
 
 =head1 SEE ALSO
 
 perl(1),
-L<File::Tail> for a solution working only with files.
+L<File::Tail> for a solution working only with files,
+L<Text::Diff> and L<Algorithm::Diff> for a more holistic approach.
